@@ -2,7 +2,7 @@
 
 [My Notes](notes.md)
 
-An online chess game where players can play chess against another player. The players can play against each other or a robot/ai. They can get ranked or points for games won and theirs a public display that shows the different players ranking. When playing against the computer you can choose easy medium or hard mode.
+An online chess game where players can play chess against another player. The players can play against each other or a robot/ai. They can get ranked or points for games won and theres a public display that shows the different players ranking. When playing against the computer you can choose easy medium or hard mode.
 
 
 ### Elevator pitch
