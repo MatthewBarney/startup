@@ -14,7 +14,7 @@ An online chess game where players can play chess against another player. The pl
 
 ### Design
 
-![Design image](placeholder.png)
+![Design image](IMG_8275.jpeg)
 
 - The player logs in and starts or joins a chess game.
 - Players take turns moving pieces on the board.
