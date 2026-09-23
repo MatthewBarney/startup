@@ -22,3 +22,4 @@ Interesting things I have learned about HTML
 ## React
 
 Interesting things I have learned about React
+**I love programming**
