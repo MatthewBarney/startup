@@ -13,7 +13,7 @@ This file represents what I have learned about web programming.
 
 ## AWS
 
-Interesting things I have learned about AWS
+This was cool to see how this stuff works and it felt awesome when i got it done
 
 ## HTML
 
