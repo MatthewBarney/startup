@@ -17,7 +17,7 @@ This was cool to see how this stuff works and it felt awesome when i got it done
 
 ## HTML
 
-Interesting things I have learned about HTML
+Just cloned and added the simon code. Its cool how subdomains work.
 
 ## React
 
