@@ -18,6 +18,7 @@ This was cool to see how this stuff works and it felt awesome when i got it done
 ## HTML
 
 Just cloned and added the simon code. Its cool how subdomains work.
+Its cool to see how HTML works. The Go Live tool in VS code is very useful.
 
 ## React
 
