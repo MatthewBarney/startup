@@ -96,6 +96,7 @@ input::placeholder {
   justify-content: space-evenly;
   align-items: center;
   gap: 1rem;
+  margin-top: auto;
 }
 
 .pieces img {
