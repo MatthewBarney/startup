@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;600&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 5vw;
+  background-color: #2b1d14;
+  color: #f3e6cf;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #d9b46a;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+p {
+  max-width: 40rem;
+  margin: 0;
+}
+
+.nav-link {
+  color: #e8d3ad;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link.active {
+  color: #d9b46a;
+  border-bottom-color: #d9b46a;
+}
+
+.github-link {
+  color: #d9b46a;
+  border: 1px solid #d9b46a;
+}
+
+.github-link:hover {
+  background-color: #d9b46a;
+  color: #2b1d14;
+}
+
+#login {
+  background-color: #3a2719;
+  border: 1px solid #d9b46a;
+  padding: 1.25rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+#login .form-label {
+  color: #d9b46a;
+  font-weight: 600;
+}
+
+#login .btn {
+  background-color: #d9b46a;
+  color: #2b1d14;
+  font-weight: 600;
+}
+
+#login .btn:hover {
+  background-color: #e6c47f;
+}
+
+input:focus {
+  border-color: #d9b46a;
+  box-shadow: 0 0 0 0.2rem rgba(217, 180, 106, 0.4);
+}
+
+input::placeholder {
+  color: #8b7355;
+}
+
+.pieces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pieces img {
+  width: 150px;
+  max-width: 18%;
+  height: auto;
+  border: 3px solid #5a3a24;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.pieces img:hover {
+  transform: translateY(-6px);
+}
+
+.pieces img:nth-child(even) {
+  border-color: #d9b46a;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .pieces img {
+    max-width: 28%;
+  }
+}
