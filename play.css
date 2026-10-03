@@ -20,3 +20,14 @@ main {
   border: 3px solid #5a3a24;
   border-radius: 6px;
 }
+
+.game-modes .btn {
+  background-color: #d9b46a;
+  color: #2b1d14;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+}
+
+.game-modes .btn:hover {
+  background-color: #e6c47f;
+}
