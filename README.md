@@ -42,9 +42,6 @@ I am going to use the required technologies in the following ways.
 
 ## 🚀 Specification Deliverable
 
-> [!NOTE]
-> Fill in this sections as the submission artifact for this deliverable. You can refer to this [example](https://github.com/webprogramming260/startup-example/blob/main/README.md) for inspiration.
-
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] I completed the prerequisites for this deliverable (Git commit requirement)
@@ -67,27 +64,27 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [x] **HTML pages** - I did not complete this part of the deliverable.
-- [x] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [x] **Links** - I did not complete this part of the deliverable.
-- [x] **Text** - I did not complete this part of the deliverable.
-- [x] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [x] **Images** - I did not complete this part of the deliverable.
-- [x] **Login placeholder** - I did not complete this part of the deliverable.
-- [x] **DB data placeholder** - I did not complete this part of the deliverable.
-- [x] **WebSocket placeholder** - I did not complete this part of the deliverable.
-
+- [x] **HTML pages** 
+- [x] **Proper HTML element usage** 
+- [x] **Links** 
+- [x] **Text** 
+- [x] **3rd party API placeholder** 
+- [x] **Images** 
+- [x] **Login placeholder** 
+- [x] **DB data placeholder** 
+- [x] **WebSocket placeholder**
+      
 ## 🚀 CSS deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
-- [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **Visually appealing colors and layout. No overflowing elements.** - I used a dark brown and gold chess theme on every page with a checkered background. I also centered and adjusted everything.
+- [x] **Use of a CSS framework** - I used Bootstrap 5.3.3.
+- [x] **All visual elements styled using CSS** - All styling is in stylesheets.
+- [x] **Responsive to window resizing using flexbox and/or grid display** - The page body, main, the header, the chess-piece gallery and the Play buttons are all flexbox layouts that wrap onto new lines as the window narrows. A @media (max-width: 600px) query shrinks the title and resizes the piece images on small screens and the chessboard scales down to fit.
+- [x] **Use of a imported font** - I imported Playfair Display (headings) and Work Sans (body text) from Google Fonts with @import in index.css.
+- [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - yes.
 
 ## 🚀 React part 1: Routing deliverable
 
