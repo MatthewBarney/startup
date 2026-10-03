@@ -27,16 +27,32 @@ main {
 
 .rules ul {
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 0;
+  list-style: none;
 }
 
 .rules li {
+  position: relative;
   margin-bottom: 0.5rem;
+  padding-left: 2rem;
 }
 
-.rules li::marker {
+/* Chess piece bullets, one per piece in list order. \FE0E keeps them as text rather than emoji. */
+.rules li::before {
+  position: absolute;
+  left: 0;
+  top: -0.15rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
   color: #d9b46a;
 }
+
+.rules li:nth-child(1)::before { content: "\265A\FE0E"; } /* king */
+.rules li:nth-child(2)::before { content: "\265B\FE0E"; } /* queen */
+.rules li:nth-child(3)::before { content: "\265C\FE0E"; } /* rook */
+.rules li:nth-child(4)::before { content: "\265D\FE0E"; } /* bishop */
+.rules li:nth-child(5)::before { content: "\265E\FE0E"; } /* knight */
+.rules li:nth-child(6)::before { content: "\265F\FE0E"; } /* pawn */
 
 .rules strong {
   color: #d9b46a;

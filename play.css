@@ -10,6 +10,12 @@ main {
   padding: 1.25rem;
   width: fit-content;
   max-width: 100%;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.board:hover {
+  border-color: #e6c47f;
+  box-shadow: 0 0 24px 4px rgba(217, 180, 106, 0.55);
 }
 
 .board img {

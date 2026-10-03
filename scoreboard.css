@@ -32,7 +32,36 @@ main {
   background-color: #5a3a24;
 }
 
-.scores tbody tr:first-child td {
-  color: #d9b46a;
+/* Medals for the top three ranks */
+.scores tbody tr:nth-child(-n + 3) td {
   font-weight: 600;
+}
+
+.scores tbody tr:nth-child(-n + 3) td:first-child::before {
+  content: "\25CF";
+  margin-right: 0.5rem;
+}
+
+.scores tbody tr:nth-child(1) td {
+  color: #d9b46a;
+}
+
+.scores tbody tr:nth-child(1) td:first-child {
+  border-left: 4px solid #d9b46a;
+}
+
+.scores tbody tr:nth-child(2) td {
+  color: #c9ced6;
+}
+
+.scores tbody tr:nth-child(2) td:first-child {
+  border-left: 4px solid #c9ced6;
+}
+
+.scores tbody tr:nth-child(3) td {
+  color: #cd8a4b;
+}
+
+.scores tbody tr:nth-child(3) td:first-child {
+  border-left: 4px solid #cd8a4b;
 }
