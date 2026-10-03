@@ -1,0 +1,38 @@
+main {
+  align-items: center;
+  border-bottom: 1px solid #d9b46a;
+  padding-bottom: 1.5rem;
+}
+
+.scores {
+  width: 100%;
+  max-width: 40rem;
+  border-collapse: collapse;
+  background-color: #3a2719;
+  border: 1px solid #d9b46a;
+}
+
+.scores th,
+.scores td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.scores th {
+  font-family: "Playfair Display", serif;
+  color: #d9b46a;
+  border-bottom: 2px solid #d9b46a;
+}
+
+.scores tbody tr:nth-child(even) {
+  background-color: #2b1d14;
+}
+
+.scores tbody tr:hover {
+  background-color: #5a3a24;
+}
+
+.scores tbody tr:first-child td {
+  color: #d9b46a;
+  font-weight: 600;
+}
