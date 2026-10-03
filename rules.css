@@ -1,0 +1,43 @@
+main {
+  align-items: center;
+  border-bottom: 1px solid #d9b46a;
+  padding-bottom: 1.5rem;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 45rem;
+  background-color: #3a2719;
+  border: 1px solid #d9b46a;
+  padding: 1.5rem;
+  line-height: 1.6;
+}
+
+.rules h2 {
+  margin: 0.5rem 0 0;
+  font-family: "Playfair Display", serif;
+  font-size: 1.75rem;
+  color: #d9b46a;
+  border-bottom: 1px solid #5a3a24;
+  padding-bottom: 0.4rem;
+}
+
+.rules ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.rules li {
+  margin-bottom: 0.5rem;
+}
+
+.rules li::marker {
+  color: #d9b46a;
+}
+
+.rules strong {
+  color: #d9b46a;
+}
