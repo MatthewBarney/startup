@@ -1,9 +1,7 @@
 main {
   align-items: center;
-}
-
-main p {
-  text-align: center;
+  border-bottom: 1px solid #d9b46a;
+  padding-bottom: 1.5rem;
 }
 
 .board {
