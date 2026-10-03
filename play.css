@@ -1,0 +1,24 @@
+main {
+  align-items: center;
+}
+
+main p {
+  text-align: center;
+}
+
+.board {
+  background-color: #3a2719;
+  border: 1px solid #d9b46a;
+  padding: 1.25rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.board img {
+  display: block;
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #5a3a24;
+  border-radius: 6px;
+}
