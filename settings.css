@@ -1,0 +1,19 @@
+main {
+  align-items: center;
+  border-bottom: 1px solid #d9b46a;
+  padding-bottom: 1.5rem;
+}
+
+.account {
+  width: 100%;
+  max-width: 30rem;
+  background-color: #3a2719;
+  border: 1px solid #d9b46a;
+  padding: 1.5rem;
+}
+
+.account p {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  color: #d9b46a;
+}
